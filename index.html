@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h1>仅仅是一个测试</h1>
+        <p>如果你有幸看到这个网页，那么请耽误你一分钟，点击next，帮我们完成这个实验。如果你不想继续，那么请关闭这个网页</p>
+        <script type="text/javascript">
+            var array=new Array()
+            var url
+            array[0]="situation1.html"
+            array[1]="situation2.html"
+            array[2]="situation3.html"
+            url=Math.floor(Math.random()*3)
+            function url()
+            {
+                window.location.href=url;
+            };
+            </script>
+        <input type="button" value="next" onclick="url()">
+    </body>
+</html>
